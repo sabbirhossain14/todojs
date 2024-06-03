@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: aquamarine;
+    
+}
+.container{
+    width:1470px ;
+    height: 100%;
+    margin: 0 auto;
+}
+.todo_list{
+    text-align: center;
+    font-size: x-large;
+}
+ button{
+    padding: 10px 25px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.todo_list input{
+    margin-top: 40px;
+    padding: 10px ;
+    border-radius: 5px;
+}
+ol li {
+    padding-bottom: 10px;
+}
+.main ol li button{
+    margin-left: 10px;
+}
+.menu{
+    text-align: center;
+    margin-top: 30px;
+}
+    
+
